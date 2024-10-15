@@ -3,11 +3,11 @@
     <meta id="studioUploadedBy">sasboot</meta>
     <meta id="studioUploaded">1729006335001</meta>
     <meta id="studioModifiedBy">sasboot</meta>
-    <meta id="studioModified">1729006426903</meta>
+    <meta id="studioModified">1729006719396</meta>
     <meta id="layout">{"cq1":{"ModelReader":{"x":50,"y":50},"Score":{"x":50,"y":175},"Source":{"x":290,"y":50}}}</meta>
   </metadata>
   <contqueries>
-    <contquery name="cq1">
+    <contquery name="cq1" trace="Score">
       <windows>
         <window-source name="Source">
           <schema>
