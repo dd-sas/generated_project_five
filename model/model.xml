@@ -3,7 +3,7 @@
     <meta id="studioUploadedBy">sasboot</meta>
     <meta id="studioUploaded">1729006335001</meta>
     <meta id="studioModifiedBy">sasboot</meta>
-    <meta id="studioModified">1729006345896</meta>
+    <meta id="studioModified">1729006426903</meta>
     <meta id="layout">{"cq1":{"ModelReader":{"x":50,"y":50},"Score":{"x":50,"y":175},"Source":{"x":290,"y":50}}}</meta>
   </metadata>
   <contqueries>
@@ -97,6 +97,15 @@
               <field name="_SVDDDISTANCE_" type="double"/>
             </fields>
           </schema>
+          <models>
+            <offline model-type="astore">
+              <output-map>
+                <properties>
+                  <property name="Test_property"><![CDATA[testvalue]]></property>
+                </properties>
+              </output-map>
+            </offline>
+          </models>
           <connectors>
             <connector name="Result_connector" class="fs">
               <properties>
@@ -107,15 +116,6 @@
               </properties>
             </connector>
           </connectors>
-          <models>
-            <offline model-type="astore">
-              <output-map>
-                <properties>
-                  <property name="Test_property"><![CDATA[testvalue]]></property>
-                </properties>
-              </output-map>
-            </offline>
-          </models>
         </window-score>
       </windows>
       <edges>
